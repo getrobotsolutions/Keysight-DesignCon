@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=10"/>
+
+    <script language="JavaScript" type="text/javascript" src="Scripts/BaseCommand.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/BaseEvent.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/LogConsole.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/Language.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/custom.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="maincontents.js"></script>
+    <script src="boots/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="boots/css/bootstrap.min.css">
+    
+    <link href="css/Main.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body  onbeforeunload="JSUnload()" ondragstart="return false;" ondrop="return false;" style="-ms-user-select:none;" oncontextmenu="return false;">
+
+  <header onclick="">
+    <div class="config" onclick="FC_ContentsCall('Config')">
+        <img src="assets/config.png" height="58">
+    </div>
+    <!--<div class="img-home" onclick="location.href ='maincontents.htm'"></div>-->
+    <div class="logo">
+      <img src="assets/logo.png" onclick="FC_ContentsCall('')">
+    </div>
+
+  </header>
+  <nav></nav>
+  
+  <section class="main-content">
+   <div class="bmg">
+        <div class="wrap" >
+            <div class="navigation">
+
+              <div class="col-sm-12 navigation-box" style="" onclick="FC_ContentsCall('')">
+                <div style="">
+                  <img src="assets/icons/Q&A.png" class="navigation-icon" width="250">
+                  <h2 class="navigation-text">TRIVIA</h2> 
+                </div>
+                
+              </div>
+              
+              <div class="col-sm-12 navigation-box" style="" onclick="FC_ContentsCall('Selfie')">
+                <div >
+                  <img src="assets/icons/camera-1.png" class="navigation-icon" width="250">
+                  <h2 class="navigation-text">TAKE A PICTURE</h2>
+                </div>
+              </div>
+
+              <div class="col-sm-12 navigation-box" style="" onclick="FC_ContentsCall('Avatar')">
+                <div style="">
+                  <img src="assets/icons/avatar.png" class="navigation-icon" width="250">
+                  <h2 class="navigation-text">AVATAR</h2> 
+                </div>
+                
+              </div>
+              
+              <div class="col-sm-12 navigation-box" style="" onclick="FC_ContentsCall('Dance')">
+                <div >
+                  <img src="assets/icons/dance.png" class="navigation-icon" width="250">
+                  <h2 class="navigation-text">DANCE</h2>
+                </div>
+              </div>
+
+              <div class="col-sm-12 navigation-box" style="" onclick="FC_ContentsCall('Videos')">
+                <div style="">
+                  <img src="assets/icons/video.png" class="navigation-icon" width="250">
+                  <h2 class="navigation-text">VIDEOS</h2> 
+                </div>
+                
+              </div>
+              
+              
+            </div>       
+        </div>
+    </div>
+
+</section>
+<footer>
+  <img src="assets/footer.png">
+</footer>
+
+  <div id="dialog-overlay"></div>
+  <div id="dialog-box">
+  </div>
+  <style type="text/css">
+    nav {
+      height: 0px;
+    }
+    /*.main-content {
+      height: 1075px;
+      margin-top: 0;
+      padding-top: 65px;
+      background-color: ;
+      border-top: 10px solid #e80028;
+    }*/
+
+
+       .wrap {
+        padding-top: 0px;
+    }
+    .main-content {
+        padding-top: 55px;
+        height: 1130px;
+    }
+    iframe{
+        border: 0;
+    }
+    .navigation-box{
+    background-color: white;
+    
+    border: 10px solid #e80028;
+    padding: 10px;
+    /*text-align: center;*/
+    width: 930px !important;
+    height: 180px;
+    margin: 0 90px 30px 70px;
+
+}
+.navigation-icon{
+    margin: 5px 0 0 50px;
+    width: 120px;
+    float: left;
+}
+.navigation-box div{
+    border: 5px solid #e80028;
+    width: 890px;
+    height: 140px;
+}
+.navigation-text{
+    
+    font-weight: bolder;
+    font-size: 80px;
+    color: #524f56;
+    line-height: 95px;
+    letter-spacing: 3px;
+    float: left;
+    margin-left: 100px;
+ }
+
+    nav {
+    height: 15px!important;
+    background-color: #e80028;
+}
+    
+  </style>
+
+</body>
+</html>
