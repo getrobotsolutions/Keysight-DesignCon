@@ -30,7 +30,7 @@ body {
 	/*background-image: url("../../Images/background.png");
 	background-repeat: no-repeat;
 	background-position-y: -180px;*/
-	height: 1630px !important;background-color: #d3d0d8;
+	height: 1182px !important;background-color: #d3d0d8;
 }
 #selfie-instructions{
 	position: absolute;
@@ -153,11 +153,4 @@ canvas  {
 .enter {
 	margin-left: 880px;
 	margin-top: 3px;
-}
-
-footer{
-	background: #d3d0d8;
-}
-footer img{
-	padding-top: 65px;
 }

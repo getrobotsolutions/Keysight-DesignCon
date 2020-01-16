@@ -22,7 +22,7 @@ body{
 	background-repeat: no-repeat;
 	width: 1080px;
 	height: 1920px;
-	overflow: scroll;
+	overflow: hidden;
 	font-family: 'MyriadproReg';
 	color: #ffffff;
 	/*background-color: #004990 !important;
