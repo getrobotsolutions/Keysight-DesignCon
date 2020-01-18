@@ -65,6 +65,12 @@ function FC_ContentsCall(strContentsName, strLanguage)
             location.href = "Contents/Videos/index.html";
           //  PlaySpeech(speak[5]);
             break;
+
+        case "Trivia":
+            location.href = "Contents/Trivia/index.html";
+          //  PlaySpeech(speak[5]);
+            break;
+        
         
         
             
