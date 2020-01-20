@@ -188,3 +188,16 @@ width: 15%;
 #showAns{
   display: none;
 }
+
+span#showAnsq1 , span#showAnsq2 ,
+ span#showAnsq3, span#showAnsq4, 
+ span#showAnsq5, span#showAnsq6{
+    top: 10px;
+    text-align: center;
+    font-size: 23px;
+    color: #e80028;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    display: none;
+    padding-top: 25px;
+}
