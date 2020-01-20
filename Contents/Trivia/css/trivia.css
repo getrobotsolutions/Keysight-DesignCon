@@ -12,7 +12,7 @@ main {
 div.trivia-head{
   width: 100%;
   display: inline-flex;
-  padding: 0 10px;
+  padding: 0 60px 0 10px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -22,7 +22,7 @@ div.trivia-head{
     height: 7px;
     top: 120px;
     border-radius: 50px;
-    left: 42.5%;
+    left: 43.5%;
     background: #e80028;
 }
 img.trivia-icon {
@@ -184,4 +184,7 @@ width: 15%;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+#showAns{
+  display: none;
 }
