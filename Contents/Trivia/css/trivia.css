@@ -201,3 +201,7 @@ span#showAnsq1 , span#showAnsq2 ,
     display: none;
     padding-top: 25px;
 }
+#username, #email{
+  background:transparent !important;
+  color: #333 !important;
+}
