@@ -41,13 +41,13 @@
         <div class="trivia-border"></div>
       </div>
       
-     <form id="regForm" action="">
+     <form id="regForm" action="https://www.poundland.pk/Keysight/Contents/Trivia/formConnect.php" method="POST" onsubmit="return formSubmit();">
   <!-- One "tab" for each step in the form: -->
   <div class="tab">
       <h1 style="margin-bottom: 50px">Please Enter Your Name and Email Below.</h1>
 
-    <p><label>Name : </label><input type="text" placeholder="full name..." class="textboxName" name="name" value=""></p>
-    <p><label>Email :</label><input type="email" placeholder="email address..." class="textboxEmail" name="email" value=""></p>
+    <p><label>Name : </label><input type="text" placeholder="full name..." class="textboxName" name="username" value="" id="username"></p>
+    <p><label>Email :</label><input type="email" placeholder="email address..." class="textboxEmail" name="email" value="" id="email" pattern="[^ @]*@[^ @]*"></p>
 
   </div>
 
@@ -60,7 +60,7 @@
       <div>
         <label class="InputContainer">
           Calibration Services
-         <input type="radio" name="q1" value="" class="" >
+         <input type="radio" name="q1" value="Calibration Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -68,7 +68,7 @@
      <div>
         <label class="InputContainer">
           Technology Refresh
-         <input type="radio" name="q1" value="" class="" >
+         <input type="radio" name="q1" value="Technology Refresh" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -76,7 +76,7 @@
      <div>
         <label class="InputContainer">
           KeysightCare
-         <input type="radio" name="q1" value="" class="" >
+         <input type="radio" name="q1" value="KeysightCare" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -84,7 +84,7 @@
       <div>
         <label class="InputContainer">
           Test-as-a-Service
-         <input type="radio" name="q1" value="" class="" >
+         <input type="radio" name="q1" value="Test-as-a-Service" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -92,7 +92,7 @@
        <div>
         <label class="InputContainer">
           Training Services
-         <input type="radio" name="q1" value="" class="" >
+         <input type="radio" name="q1" value="Training Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -109,7 +109,7 @@
       <div>
         <label class="InputContainer">
          100
-         <input type="radio" name="q2" value="" class="">
+         <input type="radio" name="q2" value="100" class="">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -117,7 +117,7 @@
      <div>
         <label class="InputContainer">
           200
-         <input type="radio" name="q2" value="" class="" >
+         <input type="radio" name="q2" value="200" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -125,7 +125,7 @@
      <div>
         <label class="InputContainer">
           350
-         <input type="radio" name="q2" value="" class="">
+         <input type="radio" name="q2" value="350" class="">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -133,7 +133,7 @@
       <div>
         <label class="InputContainer">
           > 500
-         <input type="radio" name="q2" value="" class="" >
+         <input type="radio" name="q2" value="> 500" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -141,7 +141,7 @@
        <div>
         <label class="InputContainer">
           Keysight do not have an eBay store
-         <input type="radio" name="q2" value="" class="">
+         <input type="radio" name="q2" value="Keysight do not have an eBay store" class="">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -157,7 +157,7 @@
       <div>
         <label class="InputContainer">
           Training Services
-         <input type="radio" name="q3" value="" class="" >
+         <input type="radio" name="q3" value="Training Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -165,7 +165,7 @@
      <div>
         <label class="InputContainer">
           Technology Refresh
-         <input type="radio" name="q3" value="" class="" >
+         <input type="radio" name="q3" value="Technology Refresh" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -173,7 +173,7 @@
      <div>
         <label class="InputContainer">
           Repair Services
-         <input type="radio" name="q3" value="" class="" >
+         <input type="radio" name="q3" value="Repair Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -181,7 +181,7 @@
       <div>
         <label class="InputContainer">
           Calibration Services
-         <input type="radio" name="q3" value="" class="">
+         <input type="radio" name="q3" value="Calibration Services" class="">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -189,7 +189,7 @@
        <div>
         <label class="InputContainer">
          Infoline Support Portal
-         <input type="radio" name="q3" value="" class="">
+         <input type="radio" name="q3" value="Infoline Support Portal" class="">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -205,7 +205,7 @@
       <div>
         <label class="InputContainer">
           Calibration Services
-         <input type="radio" name="q4" value="" class="" >
+         <input type="radio" name="q4" value="Calibration Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -213,7 +213,7 @@
      <div>
         <label class="InputContainer">
           Test Asset Optimization Services
-         <input type="radio" name="q4" value="" class="" >
+         <input type="radio" name="q4" value="Test Asset Optimization Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -221,7 +221,7 @@
      <div>
         <label class="InputContainer">
           Technology Refresh
-         <input type="radio" name="q4" value="" class="">
+         <input type="radio" name="q4" value="Technology Refresh" class="">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -229,7 +229,7 @@
       <div>
         <label class="InputContainer">
           Repair Services
-         <input type="radio" name="q4" value="" class="" >
+         <input type="radio" name="q4" value="Repair Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -237,7 +237,7 @@
        <div>
         <label class="InputContainer">
           Financial Services
-         <input type="radio" name="q4" value="" class="">
+         <input type="radio" name="q4" value="Financial Services" class="">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -253,7 +253,7 @@
       <div>
         <label class="InputContainer">
           On-site calibration
-         <input type="radio" name="q5" value="" class="">
+         <input type="radio" name="q5" value="On-site calibration" class="">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -261,7 +261,7 @@
      <div>
         <label class="InputContainer">
           Standards lab calibration services
-         <input type="radio" name="q5" value="" class="" >
+         <input type="radio" name="q5" value="Standards lab calibration services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -269,7 +269,7 @@
      <div>
         <label class="InputContainer">
           Multi vendor calibration including non Keysight products
-         <input type="radio" name="q5" value="" class="" >
+         <input type="radio" name="q5" value=" Multi vendor calibration including non Keysight products" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -277,7 +277,7 @@
       <div>
         <label class="InputContainer">
           ISO 17025 Accreditation
-         <input type="radio" name="q5" value="" class="" >
+         <input type="radio" name="q5" value="ISO 17025 Accreditation" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -285,7 +285,7 @@
        <div>
         <label class="InputContainer">
           All of the above
-         <input type="radio" name="q5" value="" class="" >
+         <input type="radio" name="q5" value="All of the above" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -301,7 +301,7 @@
       <div>
         <label class="InputContainer">
           Calibration Services
-         <input type="radio" name="q6" value="" class="" >
+         <input type="radio" name="q6" value="Calibration Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -309,7 +309,7 @@
      <div>
         <label class="InputContainer">
           Tech Refresh
-         <input type="radio" name="q6" value="" class="" >
+         <input type="radio" name="q6" value="Tech Refresh" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -317,7 +317,7 @@
      <div>
         <label class="InputContainer">
           Financial Services
-         <input type="radio" name="q6" value="" class="" >
+         <input type="radio" name="q6" value="Financial Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -325,7 +325,7 @@
       <div>
         <label class="InputContainer">
           Test-as-a-Service
-         <input type="radio" name="q6" value="" class="" >
+         <input type="radio" name="q6" value="Test-as-a-Service" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -333,7 +333,7 @@
        <div>
         <label class="InputContainer">
          Training Services
-         <input type="radio" name="q6" value="" class="" >
+         <input type="radio" name="q6" value="Training Services" class="" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -342,8 +342,12 @@
   </div>
 
   <div class="thankyouMessage">
-    <h1>Thanks for submit your query</h1>
+    <h1 id="">Thanks for playing!</h1>
+    <h1 id="success"></h1>
   </div>
+  <span id="checkEr" style="display: none;">
+    please fill up all fields
+  </span>
 
 
   <div style="overflow:auto;margin-top:40px;" class="handler">
@@ -367,16 +371,7 @@
     </div>
     
   </main>
-  
 
-   <!--Form multi step--->
-
-
-
-
-
-
-   <!--/form--->
 </section>
 <footer>
   <img src="../../assets/footer.png">
@@ -390,6 +385,36 @@
 
 </body>
 
+<script type="text/javascript">
+   var radiochecker = document.getElementById('nextBtn');
+   radiochecker.addEventListener('click',function(){
+  //  var tabcheck  = document.getElementsByName("q1");
+   
+                var tabcheck  = document.querySelectorAll("tab.active input[type=radio]");
+
+                for (var i = 0; i < tabcheck.length; i++) {
+                  if(tabcheck[i].checked){
+                    //                     console.log('checked');
+                    document.getElementById('checkEr').style.display = 'none';
+
+                  }
+                  else{
+                      document.getElementById('checkEr').style.display = 'block';
+                                                // This function will figure out which tab to display
+                      var x = document.getElementsByClassName("tab");
+                     
+                      // Exit the function if any field in the current tab is invalid:
+                      //if (n == 1 && !validateForm()) return false;
+                      // Hide the current tab:
+                    //  x[currentTab].style.display = "bl";
+                      // Increase or decrease the current tab by 1:
+                      currentTab = currentTab;
+                      // if you have reached the end of the form...
+                  }
+                }
+   });
+</script>
+
 <script type="application/javascript">
 
   function JSUnload(){
@@ -400,18 +425,42 @@
 
 
 <script language="JavaScript" type="text/javascript" src="../Common/Scripts/common-inner.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+var formdata;
+    function formSubmit(){
+    formdata = $("#regForm").serialize();
+   $.ajax({
+    type:'POST',
+    url:'https://www.poundland.pk/Keysight/Contents/Trivia/formConnect.php',
+    data:formdata,
+    
+   success:function (response) {
+   // $('#success').html(response);
+   }
+  });
+  //var formReset = document.getElementById('regForm').reset();
+  //return false;
+  
+}
+</script>
 
 <script language="javascript" type="text/javascript">
     window.history.forward();
 </script>
+
+
+
 <script language="javascript" type="text/javascript">
-  var currentTab = 0; // Current tab is set to be the first tab (0)
+var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 
 function showTab(n) {
   // This function will display the specified tab of the form...
   var x = document.getElementsByClassName("tab");
   x[n].style.display = "block";
+  
   //... and fix the Previous/Next buttons:
   if (n == 0) {
     document.getElementById("prevBtn").style.display = "none";
@@ -428,18 +477,68 @@ function showTab(n) {
 }
 
 function nextPrev(n) {
-  // This function will figure out which tab to display
-  var x = document.getElementsByClassName("tab");
-  // Exit the function if any field in the current tab is invalid:
-  if (n == 1 && !validateForm()) return false;
-  // Hide the current tab:
-  x[currentTab].style.display = "none";
-  // Increase or decrease the current tab by 1:
-  currentTab = currentTab + n;
-  // if you have reached the end of the form...
+  
+if (n != 0) {
+
+var selectq1 = document.querySelectorAll('input[name=q1]');
+for (var i =0; i < selectq1.length; i++) {
+  var radiovalue = 1;
+  if(selectq1[i].checked){
+    radiovalue = selectq1[i].value;
+   break;
+  }
+ 
+}
+
+
+//q1check();
+                let nameinput = document.getElementById('username').value;
+                let emailinput = document.getElementById('email').value;
+
+                nameinput = nameinput.trim();
+                emailinput = emailinput.trim();
+
+                if ( nameinput == "" || emailinput == ""){
+                    document.getElementById('checkEr').style.display = 'block';
+                    //x[currentTab].style.display = "block";
+                    // Increase or decrease the current tab by 1:
+                     //currentTab = currentTab;
+                 }
+
+               
+
+
+                 else{
+
+                      document.getElementById('checkEr').style.display = 'none';
+                                                // This function will figure out which tab to display
+                      var x = document.getElementsByClassName("tab");
+                     
+                      // Exit the function if any field in the current tab is invalid:
+                      //if (n == 1 && !validateForm()) return false;
+                      // Hide the current tab:
+                      x[currentTab].style.display = "none";
+                      // Increase or decrease the current tab by 1:
+                      currentTab = currentTab + n;
+                      // if you have reached the end of the form...
+                    
+                 }
+  }
+
+
+  
   if (currentTab >= x.length) {
-    // ... the form gets submitted:
-    document.getElementById("regForm").submit();
+
+ // ... the form gets submitted:
+  //  document.getElementById("regForm").submit();
+  formSubmit();
+  setTimeout(function(){
+    location.href = '../../maincontents.htm';
+  },3000);
+
+    
+
+   
  //------------------------------------------------
 
 
@@ -450,9 +549,6 @@ function nextPrev(n) {
     document.querySelector('.handler').style.display='none';
 //-----------------------
 
- 
-    setTimeout(gotohome, .9);
-  //  thankyouMessage();
      return false;
     
   }
@@ -492,54 +588,10 @@ function fixStepIndicator(n) {
   x[n].className += " active";
 }
 
-var inputvalidate = document.getElementsByTagName('input');
-var submuitbtn = document.getElementById('nextBtn');
-submuitbtn.addEventListener('click',validateForm);
+/*---------radioa buton validation-----------------*/
 
-/*function demoAlert(){
-/*  var Nameinput = document.querySelector('input.textboxName').value;
-  var Emailinput = document.querySelector('input.textboxEmail').value;
-
-if (Nameinput == "" || Nameinput == "")   {
-  console.log('must fill');
-  return false; 
-}
-}
-$(function radioinputValidation() {
-  console.log('jsbqwbxwee');
-    $("#nextBtn").click(function() {     
-      if($('input[type=radio][name=q1]:checked').length == 0)
-      {
-         alert("Please select atleast one");
-         return false;
-      }
-
-      else if($('input[type=radio][name=q2]:checked').length == 0)
-      {
-         alert("Please select atleast one");
-         return false;
-      }
-
-      else
-      {
-          //alert("radio button selected value: ");
-      }      
-    });
-});
-radioinputValidation();
-*/
-
-function thankyouMessage() {
-document.querySelector('.tab').style.display='none';
-document.querySelector('.redDots').style.display = 'none';
-document.querySelector('.handler').style.display='none';
-document.querySelector('.thankyouMessage').style.display='block';
-document.querySelector('.handler').style.display='none';
-}
-
-function gotohome() {
-      location.href = "../../maincontents.htm";
-    }
+ 
+/*---------------------------------*/
 
 </script>
 <style type="text/css">
@@ -561,9 +613,12 @@ function gotohome() {
    .thankyouMessage{
     display: none;
    }
-   .main-content {
-    padding-top: 100px;
- }
+   span#checkEr {
+    text-align: center;
+    font-size: 20px;
+    color: #e80028;
+    text-transform: capitalize;
+}
 </style>
 
 
