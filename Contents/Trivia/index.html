@@ -76,7 +76,7 @@
      <div>
         <label class="InputContainer">
           KeysightCare
-         <input type="radio" name="q1" value="KeysightCare" class="q1" >
+         <input type="radio" name="q1" value="KeysightCare" class="rightq1" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -142,7 +142,7 @@
        <div>
         <label class="InputContainer">
           Keysight do not have an eBay store
-         <input type="radio" name="q2" value="Keysight do not have an eBay store" class="q2">
+         <input type="radio" name="q2" value="Keysight do not have an eBay store" class="rightq2">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -168,7 +168,7 @@
      <div>
         <label class="InputContainer">
           Technology Refresh
-         <input type="radio" name="q3" value="Technology Refresh" class="q3" >
+         <input type="radio" name="q3" value="Technology Refresh" class="rightq3" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -242,7 +242,7 @@
        <div>
         <label class="InputContainer">
           Financial Services
-         <input type="radio" name="q4" value="Financial Services" class="q4">
+         <input type="radio" name="q4" value="Financial Services" class="rightq4">
          <span class="checkmark"></span>
         </label>
       </div>
@@ -292,7 +292,7 @@
        <div>
         <label class="InputContainer">
           All of the above
-         <input type="radio" name="q5" value="All of the above" class="q5" >
+         <input type="radio" name="q5" value="All of the above" class="rightq5" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -334,7 +334,7 @@
       <div>
         <label class="InputContainer">
           Test-as-a-Service
-         <input type="radio" name="q6" value="Test-as-a-Service" class="q6" >
+         <input type="radio" name="q6" value="Test-as-a-Service" class="rightq6" >
          <span class="checkmark"></span>
         </label>
       </div>
@@ -462,12 +462,12 @@ function showTab(n) {
 
 function nextPrev(n) {
   
-if (n != 0) {
+
 
 
 //q1check();
-                let nameinput = document.getElementById('username').value;
-                let emailinput = document.getElementById('email').value;
+                var nameinput = document.getElementById('username').value;
+                var emailinput = document.getElementById('email').value;
 
                 nameinput = nameinput.trim();
                 emailinput = emailinput.trim();
@@ -487,22 +487,17 @@ if (n != 0) {
                       document.getElementById('checkEr').style.display = 'none';
                                                 // This function will figure out which tab to display
                       var x = document.getElementsByClassName("tab");
-                     
-                      // Exit the function if any field in the current tab is invalid:
-                      //if (n == 1 && !validateForm()) return false;
+
                       // Hide the current tab:
                       x[currentTab].style.display = "none";
                       // Increase or decrease the current tab by 1:
-
-                      // document.querySelector('#showAns').innerText = '';
-                      // document.querySelector('#showAns').style.display = 'none';
 
                       currentTab = currentTab + n;
                       // if you have reached the end of the form...
                        
                     
                  }
-  }
+ 
 
 
   
