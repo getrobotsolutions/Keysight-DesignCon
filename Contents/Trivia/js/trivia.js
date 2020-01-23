@@ -8,7 +8,7 @@ var q6Ans = document.querySelectorAll('.q6');
 for (var i = 0;  i < q1Ans.length; i++ ){
   q1Ans[i].addEventListener('change',function () {
   document.querySelector('#showAnsq1').style.color = 'unset';
-  document.querySelector('#showAnsq1').innerText = 'Answer: c) KeysightCare';
+  document.querySelector('#showAnsq1').innerText = 'Answer: c) KeysightCare Service and Support';
   document.querySelector('#showAnsq1').style.display = 'block';
   document.querySelector('#showAnsq1').style.color = '#e80028';
 });
@@ -20,7 +20,7 @@ for (var i = 0;  i < q1Ans.length; i++ ){
 for (var i = 0;  i < q2Ans.length; i++ ){
   q2Ans[i].addEventListener('change',function () {
     document.querySelector('#showAnsq2').style.color = 'unset';
-  document.querySelector('#showAnsq2').innerText = 'Answer: d) Keysight have >500 products listed, and these are updated on a regular basis';
+  document.querySelector('#showAnsq2').innerText = 'Answer: d) Answer: d) Keysight has >500 products listed, and these are updated on a regular basis';
   document.querySelector('#showAnsq2').style.display = 'block';
   document.querySelector('#showAnsq2').style.color = '#e80028';
 });
@@ -85,7 +85,7 @@ var rightq6 = document.querySelector('.rightq6');
 
  rightq1.addEventListener('change',function () {
   document.querySelector('#showAnsq1').style.color = 'unset';
-  document.querySelector('#showAnsq1').innerText = 'Answer: c) KeysightCare';
+  document.querySelector('#showAnsq1').innerText = 'Answer: c) KeysightCare Service and Support';
   document.querySelector('#showAnsq1').style.display = 'block';
   document.querySelector('#showAnsq1').style.color = 'green';
 });
@@ -93,7 +93,7 @@ var rightq6 = document.querySelector('.rightq6');
 
   rightq2.addEventListener('change',function () {
   document.querySelector('#showAnsq2').style.color = 'unset';
-  document.querySelector('#showAnsq2').innerText = 'Answer: d) Keysight have >500 products listed, and these are updated on a regular basis';
+  document.querySelector('#showAnsq2').innerText = 'Answer: d) Answer: d) Keysight has >500 products listed, and these are updated on a regular basis';
   document.querySelector('#showAnsq2').style.display = 'block';
   document.querySelector('#showAnsq2').style.color = 'green';
 });
