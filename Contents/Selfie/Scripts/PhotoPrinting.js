@@ -224,8 +224,8 @@ function SendEmail()
     var addr = message;
     var tempEmail=message;
     //var addr = "paul@robotaisolutions.com";
-    var subject = "Your robot selfie";
-    var body = "Please find your photo attached.";
+    var subject = "Nice to see you at the Keysight Booth!";
+    var body = "This photo is provided by the KeysightCare Service and Support robot at DesignCon 2020. Thank you for visiting the Keysight booth!  www.keysight.com/find/keysightcare";
     //var mail_server = "smtp.gmail.com";
     //var mail_addr_sender = "ict.muscatairport@gmail.com";
     //var pswd = "123456789K";
