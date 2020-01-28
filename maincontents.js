@@ -30,7 +30,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
             break;
         case "Home":
             //writeCookie("NavigationState", true, 30);
-           location.href = "../../maincontents.htm";
+           location.href = "../../menu.htm";
            break;
         case "Services":
             location.href = "Contents/Services/index.html";
@@ -70,8 +70,14 @@ function FC_ContentsCall(strContentsName, strLanguage)
             location.href = "Contents/Trivia/index.html";
           //  PlaySpeech(speak[5]);
             break;
-        
-        
+        case "mainmenu":
+            location.href = "menu.htm";
+          //  PlaySpeech(speak[5]);
+            break;
+        case "mainscreen":
+            location.href = "maincontents.htm";
+          //  PlaySpeech(speak[5]);
+            break;
         
             
         case "Config":
