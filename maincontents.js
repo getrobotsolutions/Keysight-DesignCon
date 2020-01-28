@@ -157,20 +157,20 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
            // window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Hello Ron Nerrsuhseian, my name is Tracy, I’m glad to be making a video appearance at your Board meeting, thank you for the invitation.  I’m looking forward to promoting Keysight’s Services and Solutions at major industry events in 2020.");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("ou look nice, can I take your picture?");
           
     }
 
     if(btn_info[1] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Take a picture with me");
+        window.external.PlaySpeech("Welcome to our care bar, press my buttons for service and fun.");
         
     }
     if(btn_info[2] == '1'){
         //window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("click on an icon to learn more about what we have to offer");
+            window.external.PlaySpeech("");
     }
     if(btn_info[3] == '1'){
         //window.external.ChangeLanguage("en-us");
