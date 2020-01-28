@@ -87,6 +87,18 @@
   <div id="dialog-overlay"></div>
   <div id="dialog-box">
   </div>
+
+  <script type="text/javascript">
+    function redirect(){
+      window.location.href = "maincontents.htm";
+    }
+    var initial=setTimeout(redirect,60000);
+
+    $(document).click(function(event) {
+        clearTimeout( initial );
+        initial=setTimeout(redirect,60000);
+    });
+  </script>
   <style type="text/css">
     nav {
       height: 0px;

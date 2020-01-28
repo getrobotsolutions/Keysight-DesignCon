@@ -3,17 +3,7 @@ function OnJoystickControlled(strPara){
 
 
 	if(btn_info[0] == '1'){
-		/*if(readCookie("lang")=="english"){
-	        window.external.ChangeLanguage("en-us");
-	        SetVolume(1);
-	        window.external.PlaySpeech("bye, bye. Enjoy your flight.");
-	        //window.external.PlaySpeech("Hi, I’m Morriya, how can I help you?");
-	    }
-    	else if (readCookie("lang")=="arabic") {
-    		window.external.ChangeLanguage("ar-eg");
-	        SetVolume(1);
-	        window.external.PlaySpeech("مَرْحَبَاً ، أَنَا مُرِيَةْ. كَيْفَ يُمْكِنُنِيْ أنْ أُسَاعِدَكْ؟");
-    	}*/
+		
 	}
 	if(btn_info[1] == '1'){
 		

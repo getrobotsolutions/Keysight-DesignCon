@@ -32,44 +32,33 @@ function FC_ContentsCall(strContentsName, strLanguage)
             //writeCookie("NavigationState", true, 30);
            location.href = "../../menu.htm";
            break;
-        case "Services":
-            location.href = "Contents/Services/index.html";
-            PlaySpeech(speak[0]);
+        
+
+        case "Trivia":
+            location.href = "Contents/Trivia/index.html";
+          //  PlaySpeech(speak[0]);
             break;
-        case "Calibration":
-            //PlaySpeech(speak[2]);
-            location.href = "../../Contents/Calibration/index.html";
-            break;
-        case "Solutions":
-            //PlaySpeech(speak[2]);
-            location.href = "Contents/Solutions/index.html";
-            break;
-        case "Pathwave":
-            //PlaySpeech(speak[1]);
-            location.href = "Contents/Pathwave/index.html";
-            break;
-        case "Dance":
-            location.href = "Contents/Dance/index.html";
-            PlaySpeech(speak[3]);
-            break;
-        case "Avatar":
-            location.href = "Contents/RobotAvatar/index.htm";
-            PlaySpeech(speak[4]);
-            break;
+
         case "Selfie":
             location.href = "Contents/Selfie/index.html";
             PlaySpeech(speak[5]);
             break;
 
+        case "Avatar":
+            location.href = "Contents/RobotAvatar/index.htm";
+            PlaySpeech(speak[4]);
+            break;
+
+        case "Dance":
+            location.href = "Contents/Dance/index.html";
+            PlaySpeech(speak[3]);
+            break;
+        
         case "Videos":
             location.href = "Contents/Videos/index.html";
           //  PlaySpeech(speak[5]);
             break;
-
-        case "Trivia":
-            location.href = "Contents/Trivia/index.html";
-          //  PlaySpeech(speak[5]);
-            break;
+        
         case "mainmenu":
             location.href = "menu.htm";
           //  PlaySpeech(speak[5]);
