@@ -170,12 +170,12 @@ function OnJoystickControlled(strPara){
     if(btn_info[2] == '1'){
         //window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("");
+            window.external.PlaySpeech("Please play trivia with me");
     }
     if(btn_info[3] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-       window.external.PlaySpeech("");
+       window.external.PlaySpeech("Let's have some fun and dance!");
         
     }
     if(btn_info[4] == '1'){
